@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM pytorch/pytorch:latest
 LABEL authors="mdk"
 
-RUN pip install -Uqq fastai
+RUN pip install fastai
